@@ -1,0 +1,51 @@
+1. Metode DBSCAN Tanpa Feature Selection
+Distribusi Klaster dengan 7300 sampel:
+Noise (Outlier): 676 sampel (9.26%)
+Klaster 0: 45 sampel (0.62%)
+Klaster 1: 6495 sampel (88.97%)
+Klaster 2: 30 sampel (0.41%)
+Klaster 3: 27 sampel (0.37%)
+Klaster 4: 27 sampel (0.37%)
+
+Outlier Analysis:
+Jumlah outlier: 676 sampel
+Persentase outlier: 9.26%
+
+Distribusi Outlier (berdasarkan kedekatan ke klaster):
+Klaster 0: 118 outlier (17.46% dari seluruh outlier)
+Klaster 1: 177 outlier (26.18% dari seluruh outlier)
+Klaster 2: 54 outlier (7.99% dari seluruh outlier)
+Klaster 3: 203 outlier (30.03% dari seluruh outlier)
+Klaster 4: 124 outlier (18.34% dari seluruh outlier)
+
+2. Metode DBSCAN Feature Selection Silhouete + DBI
+Distribusi Klaster dengan 7300 sampel:
+Noise (Outlier): 242 sampel (3.32%)
+Klaster 0: 7027 sampel (96.26%)
+Klaster 1: 31 sampel (0.42%)
+
+Outlier Analysis:
+Jumlah outlier: 242 sampel
+Persentase outlier: 3.32%
+
+Distribusi Outlier (berdasarkan kedekatan ke klaster):
+Klaster 0: 178 outlier (73.55% dari seluruh outlier)
+Klaster 1: 64 outlier (26.45% dari seluruh outlier)
+
+3. Metode DBSCAN Feature Selection Threshold Correlation
+Distribusi Klaster dengan 7300 sampel:
+Noise (Outlier): 518 sampel (7.10%)
+Klaster 0: 52 sampel (0.71%)
+Klaster 1: 6668 sampel (91.34%)
+Klaster 2: 30 sampel (0.41%)
+Klaster 3: 32 sampel (0.44%)
+
+Outlier Analysis:
+Jumlah outlier: 518 sampel
+Persentase outlier: 7.10%
+
+Distribusi Outlier (berdasarkan kedekatan ke klaster):
+Klaster 0: 115 outlier (22.20% dari seluruh outlier)
+Klaster 1: 179 outlier (34.56% dari seluruh outlier)
+Klaster 2: 68 outlier (13.13% dari seluruh outlier)
+Klaster 3: 156 outlier (30.12% dari seluruh outlier)

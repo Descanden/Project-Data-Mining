@@ -1,0 +1,50 @@
+1. Metode K-means Tanpa Feature Selection
+Distribusi Klaster dengan 7300 sampel:
+Klaster 0: 2479 sampel (33.96%)
+Klaster 1: 3035 sampel (41.58%)
+Klaster 2: 280 sampel (3.84%)
+Klaster 3: 1506 sampel (20.63%)
+
+Outlier Analysis:
+Jumlah outlier: 365 sampel
+Persentase outlier: 5.00%
+
+Distribusi Outlier per Klaster:
+Klaster 0: 63 outlier (2.54% dari klaster)
+Klaster 1: 45 outlier (1.48% dari klaster)
+Klaster 2: 45 outlier (16.07% dari klaster)
+Klaster 3: 212 outlier (14.08% dari klaster)
+
+2. Metode K-means Feature Selection Silhouete + DBI
+Distribusi Klaster dengan 7300 sampel:
+Klaster 0: 3040 sampel (41.64%)
+Klaster 1: 1163 sampel (15.93%)
+Klaster 2: 486 sampel (6.66%)
+Klaster 3: 2611 sampel (35.77%)
+
+Outlier Analysis:
+Jumlah outlier: 365 sampel
+Persentase outlier: 5.00%
+
+Distribusi Outlier per Klaster:
+Klaster 0: 56 outlier (1.84% dari klaster)
+Klaster 1: 47 outlier (4.04% dari klaster)
+Klaster 2: 41 outlier (8.44% dari klaster)
+Klaster 3: 221 outlier (8.46% dari klaster)
+
+3. Metode K-means Feature Selection Threshold Correlation
+Distribusi Klaster dengan 7300 sampel:
+Klaster 0: 2370 sampel (32.47%)
+Klaster 1: 548 sampel (7.51%)
+Klaster 2: 253 sampel (3.47%)
+Klaster 3: 4129 sampel (56.56%)
+
+Outlier Analysis:
+Jumlah outlier: 365 sampel
+Persentase outlier: 5.00%
+
+Distribusi Outlier per Klaster:
+Klaster 0: 103 outlier (4.35% dari klaster)
+Klaster 1: 152 outlier (27.74% dari klaster)
+Klaster 2: 45 outlier (17.79% dari klaster)
+Klaster 3: 65 outlier (1.57% dari klaster)
